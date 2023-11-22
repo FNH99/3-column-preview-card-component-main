@@ -23,8 +23,14 @@ body {
     margin-top: 15vh;
 }
 
+img {
+    margin-bottom: 1rem;
+    scale: 75%;
+}
+
 article {
     padding: 2.5rem;
+    position: relative;
 }
 
 h1 {
@@ -37,24 +43,81 @@ h1 {
 
 p {
     color: white;
-    margin-bottom: 1.5rem;
+    margin-bottom: 5rem;
 }
 
 button {
     background-color: white;
+    font-size: 0.75rem;
     padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 2rem;
     text-align: center;
     border: none;
+    position: absolute;
+    bottom: 2rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
 }
 
 #article-1 {
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
     background-color: var(--Bright-orange);
+}
+#article-1 button{
+    color: var(--Bright-orange);
+}
+#article-1 button:hover {
+    color: white;
+    background-color: var(--Bright-orange);
+    cursor: pointer;
 }
 
 #article-2 {
     background-color: var(--Dark-cyan);
 }
+#article-2 button{
+    color: var(--Dark-cyan);
+}
+#article-2 button:hover {
+    color: white;
+    background-color: var(--Dark-cyan);
+    cursor: pointer;
+}
 
 #article-3 {
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
     background-color: var(--Very-dark-cyan);
+}
+#article-3 button{
+    color: var(--Very-dark-cyan);
+}
+#article-3 button:hover {
+    color: white;
+    background-color: var(--Very-dark-cyan);
+    cursor: pointer;
+}
+
+
+/* MOBILE SCREEN */
+@media screen and (max-width: 900px) {
+    .article-container {
+        display: flex;
+        flex-direction: column;
+    }
+    #article-1 {
+        border-radius: 0px;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+    }
+    #article-3 {
+        border-radius: 0px;
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+    }
+
 }
