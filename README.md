@@ -21,9 +21,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://github.com/FNH99/3-column-preview-card-component-main/blob/master/images/screenshot-desktop.png)
+![](https://github.com/FNH99/3-column-preview-card-component-main/blob/main/images/screenshot-desktop.png)
 
-![](https://github.com/FNH99/3-column-preview-card-component-main/blob/master/images/screenshot-mobile.png)
+![](https://github.com/FNH99/3-column-preview-card-component-main/blob/main/images/screenshot-mobile.png)
 
 ### Links
 
