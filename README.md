@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://3-column-preview-card-component-main-vs9tj0tq0-fnh99s-projects.vercel.app)
+- Live Site URL: [3 column preview card](https://3-column-preview-card-component-main-vs9tj0tq0-fnh99s-projects.vercel.app)
 
 ## Author
 
